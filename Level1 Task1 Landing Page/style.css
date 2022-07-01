@@ -1,0 +1,271 @@
+* {
+    margin: 1px;
+    padding: 10px;
+}
+#Foodoku {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+#Foodoku::before{
+    content: "";
+    background-color: beige;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#logo{
+    margin-top: 1px;
+    margin-left: 70px;
+}
+#logo img{
+    height: 80px;
+    width: 150px;
+    background-blend-mode: multiply;
+}
+#logoname{
+    color: darkkhaki;
+    text-shadow: 5px 5px 5px khaki;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+ul{
+    width: fit-content;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+
+}
+.item{
+    margin: 15px;
+    font-size: 1.4rem;
+
+}
+.item{
+    margin: 15px;
+    font-size: 1.4rem;
+
+}
+.uldiv{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 800px;
+    margin-left: 100px;
+}
+ul a{
+    padding: 0px 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 4px 4px 4px rgb(41,39,39);
+
+}
+ul a:hover{
+    background-color: gainsboro;
+    text-shadow: 4px 4px 5px rgb(41,39,39);
+
+
+}
+ul a:active{
+    text-decoration: underline;
+
+}
+ul a:active{
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Acme', sans-serif;
+
+}
+#home::before{
+    content: "";
+    background: url(background.jpg) no-repeat center/cover;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    text-align: center;
+    color: rgb(247, 46, 28);
+    text-shadow: 5px 5px 5px rgb(79, 52, 52);
+    font-size: 2.5rem;
+}
+#home p{
+    font-size: 1.3rem;
+    margin-top: 18px;
+    text-align: center;
+    text-shadow:  3px 3px 4px rgb(241, 241, 189);
+    color: rgb(3, 3, 3);
+}
+.btn{
+    padding: 8px 24px;
+    border:2px solid rgb(223, 183, 50);
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(41,39,39);
+    color: gainsboro;
+    margin: 20px;
+    cursor: pointer;
+}
+.btn::hover {
+    text-decoration: underline;
+
+}
+#but1{
+    font-family: 'Acme', sans-serif;
+    text-shadow: 4px 4px 5px rgb(41,39,39);
+    font: 1.3rem;
+}
+#service-container{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#service-container-head{
+    color: darkorange;
+    padding: 12px;
+    font-size: 2.4rem;
+}
+.services{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: unset;
+}
+.service-box{
+    border: 2px solid rgb(216, 231, 231);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: rgb(216, 231, 231);
+
+}
+.service-image{
+    height: 150;
+    width: 200px;
+}
+.service-head{
+    padding: 12px;
+    font-size: 1.5rem;
+}
+.service-para{
+    font-size: 1.1rem;
+
+}
+#clients-container{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+
+
+}
+#clients-container::before{
+    content: "";
+    background-color: aliceblue;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.clientlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.client-head{
+    color: yellow;
+    padding: 8px;
+    font-size: 2.4rem;
+}
+.client-image{
+    margin: 5px 15px;
+    height: 100px;
+    width: 150px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+
+}
+#contact::before{
+    content: "";
+    background: url(botttombackground.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0,85;
+}
+.contact-head{
+    padding:20px;
+    color: rgb(7, 7, 7);
+    font-size: 2.4rem;
+    text-shadow: 4px 4px 5px rgb(41,39,39);
+}
+#contactbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactbox input,
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    border: 2px solid rgb(216, 231, 231);
+
+}
+#contactbox form{
+    width: 100%;
+}
+#contactbox label{
+    font-size: 1.1rem;
+    color: rgb(3, 3, 3);
+    text-shadow: 4px 4px 5px rgb(41,39,39);
+}
+footer{
+    text-align: center;
+    background-color: olive;
+    color: chartreuse;
+    font-size: 1.2rem;
+    font-family: 'Acme', sans-serif;
+    padding: 8px;
+}
